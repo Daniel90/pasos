@@ -12,7 +12,7 @@ namespace Datos
     public class D_Customer : CAD
     {
         /// <summary>
-        /// Devuelve todos los registros de la tabla costumer
+        /// Devuelve todos los registros de la tabla customer
         /// </summary>
         /// <returns></returns>
         public DataSet GetAll()
