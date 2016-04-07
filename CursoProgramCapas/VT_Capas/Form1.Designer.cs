@@ -28,12 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.DGCustomer = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.DGCustomer)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // DGCustomer
+            // 
+            this.DGCustomer.AllowUserToAddRows = false;
+            this.DGCustomer.AllowUserToDeleteRows = false;
+            this.DGCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGCustomer.Location = new System.Drawing.Point(22, 192);
+            this.DGCustomer.Name = "DGCustomer";
+            this.DGCustomer.ReadOnly = true;
+            this.DGCustomer.Size = new System.Drawing.Size(595, 281);
+            this.DGCustomer.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(644, 506);
+            this.Controls.Add(this.DGCustomer);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DGCustomer)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView DGCustomer;
     }
 }
 
