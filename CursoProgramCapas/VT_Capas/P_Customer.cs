@@ -18,5 +18,9 @@ namespace VT_Capas
         {
             return N_Cus.GetAll();
         }
+        public E_Customer GetOne(int CustomerId)
+        {
+            return N_Cus.GetOne(CustomerId);
+        }
     }
 }

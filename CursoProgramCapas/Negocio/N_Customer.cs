@@ -21,5 +21,9 @@ namespace Negocio
         {
             return D_Cus.GetAll();
         }
+        public E_Customer GetOne(int CustomerId)
+        {
+            return D_Cus.GetOne(CustomerId);
+        }
     }
 }
